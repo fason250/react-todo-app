@@ -1,0 +1,27 @@
+.todo-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+}
+.todo-items-container{
+    display: flex;
+    /* width: 100%; */
+    overflow: hidden;
+}
+.todo-items-text{
+    padding-left: 16px;
+    color: #404040;
+    font-size: 22px;
+}
+.todo-item-remove,.check{
+    cursor: pointer;
+    padding-right: 25px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+.checked{
+    text-decoration: line-through solid #adadad 3px;
+}
