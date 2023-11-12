@@ -1,4 +1,3 @@
-// import TodoItem from "./TodoItem"
 import { useEffect, useRef, useState } from 'react'
 import '../Style/Todo.css'
 import TodoItem from './TodoItem'
